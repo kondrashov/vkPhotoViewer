@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC34D14116B316B90042DF9C /* AlbumListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC34D14016B316B90042DF9C /* AlbumListCell.m */; };
+		AC34D14316B316DA0042DF9C /* AlbumListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC34D14216B316DA0042DF9C /* AlbumListCell.xib */; };
+		AC64A68B16B599E0004DA331 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC64A68A16B599E0004DA331 /* SystemConfiguration.framework */; };
+		AC64A69716B5D00E004DA331 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AC64A69616B5D00E004DA331 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AC64A6A316B657FD004DA331 /* BaseInternetController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC64A6A216B657FD004DA331 /* BaseInternetController.m */; };
+		AC97383A16B3E62B00C46682 /* InternetProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AC97383916B3E62B00C46682 /* InternetProvider.m */; };
+		AC97386316B46F9200C46682 /* ViewPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC97386116B46F9200C46682 /* ViewPhotoController.m */; };
+		AC97386416B46F9200C46682 /* ViewPhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC97386216B46F9200C46682 /* ViewPhotoController.xib */; };
+		AC97386816B474EC00C46682 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC97386616B474EC00C46682 /* PhotosViewController.m */; };
+		ACDC161616B27231009C4E85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC161516B27231009C4E85 /* UIKit.framework */; };
+		ACDC161816B27231009C4E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC161716B27231009C4E85 /* Foundation.framework */; };
+		ACDC161A16B27231009C4E85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDC161916B27231009C4E85 /* CoreGraphics.framework */; };
+		ACDC162016B27231009C4E85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDC161E16B27231009C4E85 /* InfoPlist.strings */; };
+		ACDC162216B27231009C4E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC162116B27231009C4E85 /* main.m */; };
+		ACDC162616B27231009C4E85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC162516B27231009C4E85 /* AppDelegate.m */; };
+		ACDC162816B27231009C4E85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDC162716B27231009C4E85 /* Default.png */; };
+		ACDC162A16B27231009C4E85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDC162916B27231009C4E85 /* Default@2x.png */; };
+		ACDC162C16B27231009C4E85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACDC162B16B27231009C4E85 /* Default-568h@2x.png */; };
+		ACDC162F16B27231009C4E85 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC162E16B27231009C4E85 /* LoginViewController.m */; };
+		ACDC163216B27231009C4E85 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDC163016B27231009C4E85 /* LoginViewController.xib */; };
+		ACDC163D16B279BB009C4E85 /* AlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDC163B16B279BB009C4E85 /* AlbumListViewController.m */; };
+		ACDC163E16B279BB009C4E85 /* AlbumListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDC163C16B279BB009C4E85 /* AlbumListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC34D13F16B316B90042DF9C /* AlbumListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumListCell.h; sourceTree = "<group>"; };
+		AC34D14016B316B90042DF9C /* AlbumListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumListCell.m; sourceTree = "<group>"; };
+		AC34D14216B316DA0042DF9C /* AlbumListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumListCell.xib; sourceTree = "<group>"; };
+		AC64A68A16B599E0004DA331 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AC64A69516B5D00E004DA331 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AC64A69616B5D00E004DA331 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		AC64A6A116B657FD004DA331 /* BaseInternetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInternetController.h; sourceTree = "<group>"; };
+		AC64A6A216B657FD004DA331 /* BaseInternetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInternetController.m; sourceTree = "<group>"; };
+		AC97383816B3E62B00C46682 /* InternetProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetProvider.h; sourceTree = "<group>"; };
+		AC97383916B3E62B00C46682 /* InternetProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetProvider.m; sourceTree = "<group>"; };
+		AC97386016B46F9200C46682 /* ViewPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPhotoController.h; sourceTree = "<group>"; };
+		AC97386116B46F9200C46682 /* ViewPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPhotoController.m; sourceTree = "<group>"; };
+		AC97386216B46F9200C46682 /* ViewPhotoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewPhotoController.xib; sourceTree = "<group>"; };
+		AC97386516B474EC00C46682 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		AC97386616B474EC00C46682 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		ACDC161116B27231009C4E85 /* vkPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDC161516B27231009C4E85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACDC161716B27231009C4E85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACDC161916B27231009C4E85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACDC161D16B27231009C4E85 /* vkPhotoViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vkPhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		ACDC161F16B27231009C4E85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACDC162116B27231009C4E85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACDC162316B27231009C4E85 /* vkPhotoViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vkPhotoViewer-Prefix.pch"; sourceTree = "<group>"; };
+		ACDC162416B27231009C4E85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACDC162516B27231009C4E85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACDC162716B27231009C4E85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACDC162916B27231009C4E85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACDC162B16B27231009C4E85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACDC162D16B27231009C4E85 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		ACDC162E16B27231009C4E85 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		ACDC163116B27231009C4E85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoginViewController.xib; sourceTree = "<group>"; };
+		ACDC163A16B279BB009C4E85 /* AlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumListViewController.h; sourceTree = "<group>"; };
+		ACDC163B16B279BB009C4E85 /* AlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumListViewController.m; sourceTree = "<group>"; };
+		ACDC163C16B279BB009C4E85 /* AlbumListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumListViewController.xib; sourceTree = "<group>"; };
+		ACDC164716B28D49009C4E85 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDC160E16B27231009C4E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC64A68B16B599E0004DA331 /* SystemConfiguration.framework in Frameworks */,
+				ACDC161616B27231009C4E85 /* UIKit.framework in Frameworks */,
+				ACDC161816B27231009C4E85 /* Foundation.framework in Frameworks */,
+				ACDC161A16B27231009C4E85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC34D13D16B316600042DF9C /* AlbumListCell */ = {
+			isa = PBXGroup;
+			children = (
+				AC34D13F16B316B90042DF9C /* AlbumListCell.h */,
+				AC34D14016B316B90042DF9C /* AlbumListCell.m */,
+				AC34D14216B316DA0042DF9C /* AlbumListCell.xib */,
+			);
+			name = AlbumListCell;
+			sourceTree = "<group>";
+		};
+		AC64A68516B595FE004DA331 /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				AC64A68616B59634004DA331 /* Reachability */,
+				ACF2D1F816B3401E00D6B421 /* InternetProvider */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		AC64A68616B59634004DA331 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AC64A69516B5D00E004DA331 /* Reachability.h */,
+				AC64A69616B5D00E004DA331 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		AC64A69016B5A66E004DA331 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC164716B28D49009C4E85 /* Constants.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		AC64A69C16B6576F004DA331 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AC64A6A116B657FD004DA331 /* BaseInternetController.h */,
+				AC64A6A216B657FD004DA331 /* BaseInternetController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AC97383B16B40DF200C46682 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				AC97386516B474EC00C46682 /* PhotosViewController.h */,
+				AC97386616B474EC00C46682 /* PhotosViewController.m */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		AC97385E16B46D5700C46682 /* ViewPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				AC97386016B46F9200C46682 /* ViewPhotoController.h */,
+				AC97386116B46F9200C46682 /* ViewPhotoController.m */,
+				AC97386216B46F9200C46682 /* ViewPhotoController.xib */,
+			);
+			name = ViewPhoto;
+			sourceTree = "<group>";
+		};
+		ACDC160616B27231009C4E85 = {
+			isa = PBXGroup;
+			children = (
+				ACDC161B16B27231009C4E85 /* vkPhotoViewer */,
+				ACDC161416B27231009C4E85 /* Frameworks */,
+				ACDC161216B27231009C4E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDC161216B27231009C4E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC161116B27231009C4E85 /* vkPhotoViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDC161416B27231009C4E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC64A68A16B599E0004DA331 /* SystemConfiguration.framework */,
+				ACDC161516B27231009C4E85 /* UIKit.framework */,
+				ACDC161716B27231009C4E85 /* Foundation.framework */,
+				ACDC161916B27231009C4E85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDC161B16B27231009C4E85 /* vkPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				AC64A69C16B6576F004DA331 /* Base */,
+				AC64A69016B5A66E004DA331 /* Global */,
+				AC64A68516B595FE004DA331 /* Internet */,
+				ACDC163916B2798D009C4E85 /* Login */,
+				ACDC163816B27985009C4E85 /* Album List */,
+				AC97383B16B40DF200C46682 /* Photos */,
+				AC97385E16B46D5700C46682 /* ViewPhoto */,
+				ACDC162416B27231009C4E85 /* AppDelegate.h */,
+				ACDC162516B27231009C4E85 /* AppDelegate.m */,
+				ACDC161C16B27231009C4E85 /* Supporting Files */,
+			);
+			path = vkPhotoViewer;
+			sourceTree = "<group>";
+		};
+		ACDC161C16B27231009C4E85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC161D16B27231009C4E85 /* vkPhotoViewer-Info.plist */,
+				ACDC161E16B27231009C4E85 /* InfoPlist.strings */,
+				ACDC162116B27231009C4E85 /* main.m */,
+				ACDC162316B27231009C4E85 /* vkPhotoViewer-Prefix.pch */,
+				ACDC162716B27231009C4E85 /* Default.png */,
+				ACDC162916B27231009C4E85 /* Default@2x.png */,
+				ACDC162B16B27231009C4E85 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACDC163816B27985009C4E85 /* Album List */ = {
+			isa = PBXGroup;
+			children = (
+				AC34D13D16B316600042DF9C /* AlbumListCell */,
+				ACDC163A16B279BB009C4E85 /* AlbumListViewController.h */,
+				ACDC163B16B279BB009C4E85 /* AlbumListViewController.m */,
+				ACDC163C16B279BB009C4E85 /* AlbumListViewController.xib */,
+			);
+			name = "Album List";
+			sourceTree = "<group>";
+		};
+		ACDC163916B2798D009C4E85 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC162D16B27231009C4E85 /* LoginViewController.h */,
+				ACDC162E16B27231009C4E85 /* LoginViewController.m */,
+				ACDC163016B27231009C4E85 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		ACF2D1F816B3401E00D6B421 /* InternetProvider */ = {
+			isa = PBXGroup;
+			children = (
+				AC97383816B3E62B00C46682 /* InternetProvider.h */,
+				AC97383916B3E62B00C46682 /* InternetProvider.m */,
+			);
+			name = InternetProvider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDC161016B27231009C4E85 /* vkPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDC163516B27231009C4E85 /* Build configuration list for PBXNativeTarget "vkPhotoViewer" */;
+			buildPhases = (
+				ACDC160D16B27231009C4E85 /* Sources */,
+				ACDC160E16B27231009C4E85 /* Frameworks */,
+				ACDC160F16B27231009C4E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkPhotoViewer;
+			productName = vkPhotoViewer;
+			productReference = ACDC161116B27231009C4E85 /* vkPhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDC160816B27231009C4E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Depositphotos;
+			};
+			buildConfigurationList = ACDC160B16B27231009C4E85 /* Build configuration list for PBXProject "vkPhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACDC160616B27231009C4E85;
+			productRefGroup = ACDC161216B27231009C4E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDC161016B27231009C4E85 /* vkPhotoViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDC160F16B27231009C4E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC162016B27231009C4E85 /* InfoPlist.strings in Resources */,
+				ACDC162816B27231009C4E85 /* Default.png in Resources */,
+				ACDC162A16B27231009C4E85 /* Default@2x.png in Resources */,
+				ACDC162C16B27231009C4E85 /* Default-568h@2x.png in Resources */,
+				ACDC163216B27231009C4E85 /* LoginViewController.xib in Resources */,
+				ACDC163E16B279BB009C4E85 /* AlbumListViewController.xib in Resources */,
+				AC34D14316B316DA0042DF9C /* AlbumListCell.xib in Resources */,
+				AC97386416B46F9200C46682 /* ViewPhotoController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDC160D16B27231009C4E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDC162216B27231009C4E85 /* main.m in Sources */,
+				ACDC162616B27231009C4E85 /* AppDelegate.m in Sources */,
+				ACDC162F16B27231009C4E85 /* LoginViewController.m in Sources */,
+				ACDC163D16B279BB009C4E85 /* AlbumListViewController.m in Sources */,
+				AC34D14116B316B90042DF9C /* AlbumListCell.m in Sources */,
+				AC97383A16B3E62B00C46682 /* InternetProvider.m in Sources */,
+				AC97386316B46F9200C46682 /* ViewPhotoController.m in Sources */,
+				AC97386816B474EC00C46682 /* PhotosViewController.m in Sources */,
+				AC64A69716B5D00E004DA331 /* Reachability.m in Sources */,
+				AC64A6A316B657FD004DA331 /* BaseInternetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACDC161E16B27231009C4E85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDC161F16B27231009C4E85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACDC163016B27231009C4E85 /* LoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDC163116B27231009C4E85 /* en */,
+			);
+			name = LoginViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDC163316B27231009C4E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDC163416B27231009C4E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDC163616B27231009C4E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vkPhotoViewer/vkPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "vkPhotoViewer/vkPhotoViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACDC163716B27231009C4E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vkPhotoViewer/vkPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "vkPhotoViewer/vkPhotoViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDC160B16B27231009C4E85 /* Build configuration list for PBXProject "vkPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC163316B27231009C4E85 /* Debug */,
+				ACDC163416B27231009C4E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDC163516B27231009C4E85 /* Build configuration list for PBXNativeTarget "vkPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDC163616B27231009C4E85 /* Debug */,
+				ACDC163716B27231009C4E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDC160816B27231009C4E85 /* Project object */;
+}
